@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>36507ce4-a76e-4ae6-9a60-4f8f4a432a3f</ProjectGuid>
+    <ProjectGuid>{36507CE4-A76E-4AE6-9A60-4F8F4A432A3F}</ProjectGuid>
     <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>UnoShapeBorderIssue.macOS</RootNamespace>
@@ -69,9 +69,9 @@
     <Reference Include="System.Memory" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Uno.UI" Version="4.4.13" />
-    <PackageReference Include="Uno.UI.RemoteControl" Version="4.4.13" Condition="'$(Configuration)'=='Debug'" />
-    <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.4.13" />
+    <PackageReference Include="Uno.UI" Version="4.5.9" />
+    <PackageReference Include="Uno.UI.RemoteControl" Version="4.5.9" Condition="'$(Configuration)'=='Debug'" />
+    <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.5.9" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
   </ItemGroup>
@@ -92,11 +92,7 @@
     <ImageAsset Include="Assets.xcassets\unologo.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\unologo.imageset\unoplatform.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-    <Folder Include="Resources\Fonts\" />
-    <Folder Include="Assets.xcassets\unologo.imageset\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />

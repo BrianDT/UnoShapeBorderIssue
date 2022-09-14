@@ -11,7 +11,7 @@
       <Version>6.2.11</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.UI.Xaml" Version="2.6.2" />
-    <PackageReference Include="Uno.UI" Version="4.4.13" />
+    <PackageReference Include="Uno.UI" Version="4.5.9" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="5.0.0" />
     <PackageReference Include="Uno.Core.Extensions.Logging.Singleton" Version="4.0.1" />
@@ -23,7 +23,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>568cbddb-9bb5-45b8-83c9-87b2ddaad44c</ProjectGuid>
+    <ProjectGuid>{568CBDDB-9BB5-45B8-83C9-87B2DDAAD44C}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UnoShapeBorderIssue</RootNamespace>

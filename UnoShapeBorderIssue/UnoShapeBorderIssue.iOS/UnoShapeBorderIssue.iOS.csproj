@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>aab0ca11-d753-4451-8ef5-19fe3be5bfa6</ProjectGuid>
+    <ProjectGuid>{AAB0CA11-D753-4451-8EF5-19FE3BE5BFA6}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>UnoShapeBorderIssue</RootNamespace>
@@ -113,9 +113,9 @@
     <BundleResource Include="Resources\Fonts\uno-fluentui-assets.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Uno.UI" Version="4.4.13" />
-    <PackageReference Include="Uno.UI.RemoteControl" Version="4.4.13" Condition="'$(Configuration)'=='Debug'" />
-    <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.4.13" />
+    <PackageReference Include="Uno.UI" Version="4.5.9" />
+    <PackageReference Include="Uno.UI.RemoteControl" Version="4.5.9" Condition="'$(Configuration)'=='Debug'" />
+    <PackageReference Include="Uno.UI.Adapter.Microsoft.Extensions.Logging" Version="4.5.9" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
     <PackageReference Include="Uno.Extensions.Logging.OSLog " Version="1.4.0" />
   </ItemGroup>
@@ -170,11 +170,7 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Media" Visible="false" />
-    <Folder Include="Media\AppIcons" Visible="false" />
-    <Folder Include="Media\LaunchImages" Visible="false" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="..\UnoShapeBorderIssue.Shared\UnoShapeBorderIssue.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
