@@ -12,6 +12,7 @@ namespace UnoShapeBorderIssue
     /// <summary>
     /// The main view model.
     /// </summary>
+    [Bindable(bindable: true)]
     public class MainViewModel : INotifyPropertyChanged
     {
         /// <summary>
